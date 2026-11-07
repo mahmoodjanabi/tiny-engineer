@@ -52,5 +52,5 @@ Edit the lines in `tiny-say.sh` (the `pick` calls) to change the personality.
 
 ## Known gaps
 
-- Two Claude Code sessions finishing at once both speak; the robot plays whichever `/play` arrives first and rejects the other with 409. A host daemon that queues per session is the fix.
+- Two Claude Code sessions finishing at once both speak; the second clip interrupts the first (the firmware has no play queue). A host daemon that queues per session is the fix.
 - On the round-face head, the eyes react to speech but there is no mouth yet; that comes with the round-face firmware.
