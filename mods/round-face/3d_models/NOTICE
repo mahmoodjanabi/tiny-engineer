@@ -1,0 +1,16 @@
+Copyright (c) 2026 Krzysztof Jamroz (stock Head and Hat geometry)
+Copyright (c) 2026 Mahmood Janabi (round-face modifications)
+
+SPDX-License-Identifier: CERN-OHL-S-2.0
+
+The hardware design files in this directory (`cad/` and `parts/`) are
+derived from the stock Tiny Engineer `Head` and `Hat` and are licensed
+under CERN-OHL-S-2.0. The full licence text is in ../../../3d_models/LICENSE.
+
+Source Location
+---------------
+
+https://github.com/mahmoodjanabi/tiny-engineer/tree/main/mods/round-face/3d_models
+
+The parametric source is `cad/build_round_face.py`; it regenerates the
+exports in `parts/` from the stock meshes.
